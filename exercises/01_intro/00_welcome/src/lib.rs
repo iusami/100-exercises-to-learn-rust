@@ -16,8 +16,7 @@
 // If you get stuck for more than 10 minutes on an exercise, grab a trainer! We're here to help!
 // You can also find solutions to all exercises in the `solutions` git branch.
 fn greeting() -> &'static str {
-    // TODO: fix me 👇
-    "I'm ready to __!"
+    "I'm ready to learn Rust!"
 }
 
 // Your solutions will be automatically verified by a set of tests.
@@ -40,7 +39,7 @@ mod tests {
     use crate::greeting;
 
     #[test]
-    fn test_welcome() {
+    fn test_welcome() -> () {
         assert_eq!(greeting(), "I'm ready to learn Rust!");
     }
 }
